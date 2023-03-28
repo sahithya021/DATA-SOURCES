@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SportsData>
+  <Games>
+    <GameID>1</GameID>
+    <HomeTeamID>1</HomeTeamID>
+    <AwayTeamID>2</AwayTeamID>
+    <FacilityID>2</FacilityID>
+    <GameDate>2023-04-01</GameDate>
+    <GameTime>14:30:00</GameTime>
+    <GameLocation>Stadium A</GameLocation>
+  </Games>
+  <Games>
+    <GameID>2</GameID>
+    <HomeTeamID>3</HomeTeamID>
+    <AwayTeamID>4</AwayTeamID>
+    <FacilityID>1</FacilityID>
+    <GameDate>2023-04-02</GameDate>
+    <GameTime>10:00:00</GameTime>
+    <GameLocation>Field B</GameLocation>
+  </Games>
+  <Games>
+    <GameID>3</GameID>
+    <HomeTeamID>5</HomeTeamID>
+    <AwayTeamID>6</AwayTeamID>
+    <FacilityID>3</FacilityID>
+    <GameDate>2023-04-03</GameDate>
+    <GameTime>16:00:00</GameTime>
+    <GameLocation>Gymnasium C</GameLocation>
+  </Games>
+    <Games>
+    <GameID>4</GameID>
+    <HomeTeamID>1</HomeTeamID>
+    <AwayTeamID>3</AwayTeamID>
+    <FacilityID>4</FacilityID>
+    <GameDate>2023-04-04</GameDate>
+    <GameTime>12:30:00</GameTime>
+    <GameLocation>Field D</GameLocation>
+  </Games>
+  <Games>
+    <GameID>5</GameID>
+    <HomeTeamID>4</HomeTeamID>
+    <AwayTeamID>2</AwayTeamID>
+    <FacilityID>5</FacilityID>
+    <GameDate>2023-04-05</GameDate>
+    <GameTime>9:00:00</GameTime>
+    <GameLocation>Stadium E</GameLocation>
+  </Games>
+</SportsData>

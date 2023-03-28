@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SportsData>
+  <Athletes>
+    <AthleteID>1</AthleteID>
+    <FullName>LeBron James</FullName>
+    <DateOfBirth>1984-12-30</DateOfBirth>
+    <Gender>Male</Gender>
+    <EmailAddress>lbj23@gmail.com</EmailAddress>
+    <PhoneNumber>1213551234</PhoneNumber>
+    <TeamID>1</TeamID>
+  </Athletes>
+  <Athletes>
+    <AthleteID>2</AthleteID>
+    <FullName>Stephen Curry</FullName>
+    <DateOfBirth>1988-03-14</DateOfBirth>
+    <Gender>Male</Gender>
+    <EmailAddress>steph30@gmail.com</EmailAddress>
+    <PhoneNumber>1510555678</PhoneNumber>
+    <TeamID>2</TeamID>
+  </Athletes>
+  <Athletes>
+    <AthleteID>3</AthleteID>
+    <FullName>Simone Biles</FullName>
+    <DateOfBirth>1997-03-14</DateOfBirth>
+    <Gender>Female</Gender>
+    <EmailAddress>simoneb@gmail.com</EmailAddress>
+    <PhoneNumber>1312555012</PhoneNumber>
+    <TeamID>4</TeamID>
+  </Athletes>
+  <Athletes>
+    <AthleteID>4</AthleteID>
+    <FullName>Lionel Messi</FullName>
+    <DateOfBirth>1987-06-24</DateOfBirth>
+    <Gender>Male</Gender>
+    <EmailAddress>lm10@gmail.com</EmailAddress>
+    <PhoneNumber>336555321</PhoneNumber>
+    <TeamID>6</TeamID>
+  </Athletes>
+  <Athletes>
+    <AthleteID>5</AthleteID>
+    <FullName>Serena Williams</FullName>
+    <DateOfBirth>1981-09-26</DateOfBirth>
+    <Gender>Female</Gender>
+    <EmailAddress>serenaw@gmail.com</EmailAddress>
+    <PhoneNumber>1310557890</PhoneNumber>
+    <TeamID>5</TeamID>
+  </Athletes>
+  <Athletes>
+    <AthleteID>6</AthleteID>
+    <FullName>Cristiano Ronaldo</FullName>
+    <DateOfBirth>1985-02-05</DateOfBirth>
+    <Gender>Male</Gender>
+    <EmailAddress>cronaldo7@gmail.com</EmailAddress>
+    <PhoneNumber>44161552468</PhoneNumber>
+    <TeamID>5</TeamID>
+  </Athletes>
+</SportsData>

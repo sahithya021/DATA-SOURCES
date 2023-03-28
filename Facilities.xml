@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SportsData>
+  <Facilities>
+    <Facility>
+      <FacilityID>1</FacilityID>
+      <FacilityName>LA Fitness</FacilityName>
+      <FacilityAddress>123 Main St</FacilityAddress>
+      <FacilityCity>Los Angeles</FacilityCity>
+      <FacilityState>California</FacilityState>
+      <FacilityCountry>United States</FacilityCountry>
+      <FacilityType>Gym</FacilityType>
+    </Facility>
+    <Facility>
+      <FacilityID>2</FacilityID>
+      <FacilityName>Staples Center</FacilityName>
+      <FacilityAddress>1111 S Figueroa St</FacilityAddress>
+      <FacilityCity>Los Angeles</FacilityCity>
+      <FacilityState>California</FacilityState>
+      <FacilityCountry>United States</FacilityCountry>
+      <FacilityType>Stadium</FacilityType>
+    </Facility>
+    <Facility>
+      <FacilityID>3</FacilityID>
+      <FacilityName>Madison Square Garden</FacilityName>
+      <FacilityAddress>4 Pennsylvania Plaza</FacilityAddress>
+      <FacilityCity>New York City</FacilityCity>
+      <FacilityState>New York</FacilityState>
+      <FacilityCountry>United States</FacilityCountry>
+      <FacilityType>Stadium</FacilityType>
+    </Facility>
+    <Facility>
+      <FacilityID>4</FacilityID>
+      <FacilityName>Manchester Aquatics Centre</FacilityName>
+      <FacilityAddress>2 Booth St E</FacilityAddress>
+      <FacilityCity>Manchester</FacilityCity>
+      <FacilityState>NULL</FacilityState>
+      <FacilityCountry>United Kingdom</FacilityCountry>
+      <FacilityType>Pool</FacilityType>
+    </Facility>
+    <Facility>
+      <FacilityID>5</FacilityID>
+      <FacilityName>Etihad Stadium</FacilityName>
+      <FacilityAddress>Ashton New Rd, Etihad Campus</FacilityAddress>
+      <FacilityCity>Manchester</FacilityCity>
+      <FacilityState>NULL</FacilityState>
+      <FacilityCountry>United Kingdom</FacilityCountry>
+      <FacilityType>Stadium</FacilityType>
+    </Facility>
+    <Facility>
+      <FacilityID>6</FacilityID>
+      <FacilityName>Stade de France</FacilityName>
+      <FacilityAddress>ZAC du Cornillon Nord</FacilityAddress>
+      <FacilityCity>Saint-Denis</FacilityCity>
+      <FacilityState>NULL</FacilityState>
+      <FacilityCountry>France</FacilityCountry>
+      <FacilityType>Stadium</FacilityType>
+    </Facility>
+  </Facilities>
+</SportsData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SportsData>
+  <Statistics>
+    <StatisticsID>1</StatisticsID>
+    <GameID>1</GameID>
+    <AthleteID>1</AthleteID>
+    <PointsScored>10</PointsScored>
+    <Assists>3</Assists>
+  </Statistics>
+  <Statistics>
+    <StatisticsID>2</StatisticsID>
+    <GameID>1</GameID>
+    <AthleteID>2</AthleteID>
+    <PointsScored>5</PointsScored>
+    <Assists>2</Assists>
+  </Statistics>
+  <Statistics>
+    <StatisticsID>3</StatisticsID>
+    <GameID>2</GameID>
+    <AthleteID>3</AthleteID>
+    <PointsScored>8</PointsScored>
+    <Assists>1</Assists>
+  </Statistics>
+  <Statistics>
+    <StatisticsID>4</StatisticsID>
+    <GameID>2</GameID>
+    <AthleteID>4</AthleteID>
+    <PointsScored>12</PointsScored>
+    <Assists>4</Assists>
+  </Statistics>
+  <Statistics>
+    <StatisticsID>5</StatisticsID>
+    <GameID>3</GameID>
+    <AthleteID>5</AthleteID>
+    <PointsScored>15</PointsScored>
+    <Assists>6</Assists>
+  </Statistics>
+</SportsData>

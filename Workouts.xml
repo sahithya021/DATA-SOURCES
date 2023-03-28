@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SportsData>
+  <Workouts>
+    <WorkoutID>1</WorkoutID>
+    <AthleteID>101</AthleteID>
+    <WorkoutDate>2022-05-01</WorkoutDate>
+    <WorkoutTime>9:00am</WorkoutTime>
+    <ExerciseType>Bench Press</ExerciseType>
+    <Weight>135 lbs</Weight>
+  </Workouts>
+  <Workouts>
+    <WorkoutID>2</WorkoutID>
+    <AthleteID>102</AthleteID>
+    <WorkoutDate>2022-06-05</WorkoutDate>
+    <WorkoutTime>10:30am</WorkoutTime>
+    <ExerciseType>Squats</ExerciseType>
+    <Weight>185 lbs</Weight>
+  </Workouts>
+  <Workouts>
+    <WorkoutID>3</WorkoutID>
+    <AthleteID>104</AthleteID>
+    <WorkoutDate>2022-07-10</WorkoutDate>
+    <WorkoutTime>11:00am</WorkoutTime>
+    <ExerciseType>Deadlifts</ExerciseType>
+    <Weight>225 lbs</Weight>
+  </Workouts>
+  <Workouts>
+    <WorkoutID>4</WorkoutID>
+    <AthleteID>106</AthleteID>
+    <WorkoutDate>2022-08-15</WorkoutDate>
+    <WorkoutTime>2:00pm</WorkoutTime>
+    <ExerciseType>Shoulder Press</ExerciseType>
+    <Weight>95 lbs</Weight>
+  </Workouts>
+</SportsData>

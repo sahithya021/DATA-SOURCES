@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SportsData>
+  <Teams>
+    <Team>
+      <TeamID>1</TeamID>
+      <TeamName>Los Angeles Lakers</TeamName>
+      <HomeCity>Los Angeles</HomeCity>
+      <HomeState>California</HomeState>
+      <HomeCountry>United States</HomeCountry>
+    </Team>
+    <Team>
+      <TeamID>2</TeamID>
+      <TeamName>Golden State Warriors</TeamName>
+      <HomeCity>San Francisco</HomeCity>
+      <HomeState>California</HomeState>
+      <HomeCountry>United States</HomeCountry>
+    </Team>
+    <Team>
+      <TeamID>3</TeamID>
+      <TeamName>New York Yankees</TeamName>
+      <HomeCity>New York City</HomeCity>
+      <HomeState>New York</HomeState>
+      <HomeCountry>United States</HomeCountry>
+    </Team>
+    <Team>
+      <TeamID>4</TeamID>
+      <TeamName>Manchester City FC</TeamName>
+      <HomeCity>Manchester</HomeCity>
+      <HomeState>NULL</HomeState>
+      <HomeCountry>United Kingdom</HomeCountry>
+    </Team>
+    <Team>
+      <TeamID>5</TeamID>
+      <TeamName>Manchester United FC</TeamName>
+      <HomeCity>Manchester</HomeCity>
+      <HomeState>NULL</HomeState>
+      <HomeCountry>United Kingdom</HomeCountry>
+    </Team>
+    <Team>
+      <TeamID>6</TeamID>
+      <TeamName>Paris Saint-Germain FC</TeamName>
+      <HomeCity>Paris</HomeCity>
+      <HomeState>NULL</HomeState>
+      <HomeCountry>France</HomeCountry>
+    </Team>
+  </Teams>
+</SportsData>

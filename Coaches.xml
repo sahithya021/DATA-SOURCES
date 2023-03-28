@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SportsData>
+  <Coaches>
+    <CoachID>1</CoachID>
+    <FirstName>Smith</FirstName>
+    <LastName>John</LastName>
+    <EmailAddress>johnsmith@gmail.com</EmailAddress>
+    <PhoneNumber>3609636019</PhoneNumber>
+    <TeamID>1</TeamID>
+  </Coaches>
+  <Coaches>
+    <CoachID>2</CoachID>
+    <FirstName>Samantha</FirstName>
+    <LastName>Jones</LastName>
+    <EmailAddress>samanthajones@gmail.com</EmailAddress>
+    <PhoneNumber>8509692323</PhoneNumber>
+    <TeamID>2</TeamID>
+  </Coaches>
+  <Coaches>
+    <CoachID>3</CoachID>
+    <FirstName>David</FirstName>
+    <LastName>Lee</LastName>
+    <EmailAddress>davidlee@gmail.com</EmailAddress>
+    <PhoneNumber>2012743084</PhoneNumber>
+    <TeamID>3</TeamID>
+  </Coaches>
+  <Coaches>
+    <CoachID>4</CoachID>
+    <FirstName>Jessica</FirstName>
+    <LastName>Chen</LastName>
+    <EmailAddress>jessicachen@gmail.com</EmailAddress>
+    <PhoneNumber>9098851062</PhoneNumber>
+    <TeamID>4</TeamID>
+  </Coaches>
+  <Coaches>
+    <CoachID>5</CoachID>
+    <FirstName>Michael</FirstName>
+    <LastName>Nguyen</LastName>
+    <EmailAddress>michaelnguyen@gmail.com</EmailAddress>
+    <PhoneNumber>5012597627</PhoneNumber>
+    <TeamID>5</TeamID>
+  </Coaches>
+</SportsData>

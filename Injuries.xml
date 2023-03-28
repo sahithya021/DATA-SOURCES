@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SportsData>
+  <Injuries>
+    <InjuryID>1</InjuryID>
+    <AthleteID>1</AthleteID>
+    <InjuryDate>2022-05-15</InjuryDate>
+    <RecoveryTime>2 weeks</RecoveryTime>
+  </Injuries>
+  <Injuries>
+    <InjuryID>2</InjuryID>
+    <AthleteID>2</AthleteID>
+    <InjuryDate>2022-06-10</InjuryDate>
+    <RecoveryTime>4 weeks</RecoveryTime>
+  </Injuries>
+  <Injuries>
+    <InjuryID>3</InjuryID>
+    <AthleteID>4</AthleteID>
+    <InjuryDate>2022-07-01</InjuryDate>
+    <RecoveryTime>3 weeks</RecoveryTime>
+  </Injuries>
+  <Injuries>
+    <InjuryID>4</InjuryID>
+    <AthleteID>6</AthleteID>
+    <InjuryDate>2022-08-20</InjuryDate>
+    <RecoveryTime>1 week</RecoveryTime>
+  </Injuries>
+</SportsData>
