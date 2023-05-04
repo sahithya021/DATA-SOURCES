@@ -1,0 +1,1 @@
+(1, 'LeBron James', datetime.date(1984, 12, 30), 'Male', 'lbj23@gmail.com', 12151234, 1)	(2, 'Stephen Curry', datetime.date(1988, 3, 14), 'Male', 'steph30@gmail.com', 15105556, 2)	(3, 'Simone Biles', datetime.date(1997, 3, 14), 'Male', 'simoneb@gmail.com', 13125550, 4)	(4, 'Lionel Messi', datetime.date(1987, 6, 24), 'Male', 'lm10@gmail.com', 33655532, 2)	

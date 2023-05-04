@@ -42,7 +42,7 @@ CREATE TABLE `athletes` (
 
 LOCK TABLES `athletes` WRITE;
 /*!40000 ALTER TABLE `athletes` DISABLE KEYS */;
-INSERT INTO `athletes` VALUES (1,'LeBron James','1984-12-30','Male','lbj23@gmail.com',12151234,1),(2,'Stephen Curry','1988-03-14','Male','steph30@gmail.com',15105556,2),(3,'Simone Biles','1997-03-14','Male','simoneb@gmail.com',13125550,4),(4,'Lionel Messi','1987-06-24','Male','lm10@gmail.com',33655532,2),(5,'John Smith','1997-01-01','Male','johnsmith@gmail.com',555124567,1);
+INSERT INTO `athletes` VALUES (1,'LeBron James','1984-12-30','Male','lbj23@gmail.com',12151234,1),(2,'Stephen Curry','1988-03-14','Male','steph30@gmail.com',15105556,2),(3,'Simone Biles','1997-03-14','Male','simoneb@gmail.com',13125550,4),(4,'Lionel Messi','1987-06-24','Male','lm10@gmail.com',33655532,2);
 /*!40000 ALTER TABLE `athletes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -73,7 +73,7 @@ CREATE TABLE `coaches` (
 
 LOCK TABLES `coaches` WRITE;
 /*!40000 ALTER TABLE `coaches` DISABLE KEYS */;
-INSERT INTO `coaches` VALUES (2,'Samantha','Jones','samanthajones@gmail.com',850969232,2),(3,'David','Lee','davidlee@gmail.com',201274308,3),(4,'Mark','Jones','markjones@gmail.com',552345678,2);
+INSERT INTO `coaches` VALUES (1,'Smith','John','johnsmith@gmail.com',360963601,1),(2,'Samantha','Jones','samanthajones@gmail.com',850969232,2),(3,'David','Lee','davidlee@gmail.com',201274308,3);
 /*!40000 ALTER TABLE `coaches` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -102,7 +102,7 @@ CREATE TABLE `facilities` (
 
 LOCK TABLES `facilities` WRITE;
 /*!40000 ALTER TABLE `facilities` DISABLE KEYS */;
-INSERT INTO `facilities` VALUES (1,'LA Stadium','123 Main St','Los Angeles','California','United States','Gym'),(2,'Staples Center','1111 S Figueroa St','Los Angeles','California','United States','Stadium'),(3,'Madison Square Garden','4 Pennsylvania Plaza','New York City','New York','United States','Stadium');
+INSERT INTO `facilities` VALUES (1,'LA Fitness','123 Main St','Los Angeles','California','United States','Gym'),(2,'Staples Center','1111 S Figueroa St','Los Angeles','California','United States','Stadium'),(3,'Madison Square Garden','4 Pennsylvania Plaza','New York City','New York','United States','Stadium');
 /*!40000 ALTER TABLE `facilities` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -141,6 +141,25 @@ LOCK TABLES `games` WRITE;
 INSERT INTO `games` VALUES (1,'2023-04-01','14:30:00','Stadium A',1,2,2),(2,'2023-04-02','10:00:00','Field B',3,4,1),(3,'2023-04-03','16:00:00','Gymnasium C',2,3,3);
 /*!40000 ALTER TABLE `games` ENABLE KEYS */;
 UNLOCK TABLES;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = cp850 */ ;
+/*!50003 SET character_set_results = cp850 */ ;
+/*!50003 SET collation_connection  = cp850_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `Games_team_tri` BEFORE INSERT ON `games` FOR EACH ROW begin
+		if (NEW.HomeTeamID = NEW.AwayTeamID) then
+			SIGNAL sqlstate '02000'  set MESSAGE_TEXT = 'The home team and away team cannot be equal';
+	end if;
+       end */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
 -- Table structure for table `injuries`
@@ -333,4 +352,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-24 14:49:32
+-- Dump completed on 2023-04-22 12:42:12
